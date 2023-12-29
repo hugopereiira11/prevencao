@@ -9,10 +9,6 @@ body {
     position: relative;
 }
 
-main {
-    height: 200vh;
-}
-
 nav {
     display: flex;
     align-items: center;
@@ -45,7 +41,7 @@ nav a:hover {
 }
 
 .material-symbols-outlined {
-    font-size: 2em;
+    font-size: xx-large;
     color: white;
     background-color: blue;
     border-radius: 40%;
@@ -58,4 +54,23 @@ nav a:hover {
     position: fixed;
     right: 15px;
     bottom: 25px;
+}
+
+header {
+    background-color: #0F157F;
+    color: white;
+    height: 110px;
+    display: grid;
+    place-items: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 900px;
+    min-height: calc(100vh - 110px);
+    margin: 0 auto;
+    padding: 15px;
 }

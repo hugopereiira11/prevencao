@@ -1,4 +1,4 @@
-const btn = document.querySelector('.material-symbols-outlined')
+const btn = document.querySelector('#btn-menu')
 const menu = document.querySelector('#float-menu')
 
 btn.addEventListener('click', () => {

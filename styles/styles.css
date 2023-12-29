@@ -26,7 +26,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    padding: 50px 90%;
+    padding: 25px 90%;
     font-size: 1.5em;
     width: max-content;
 }
@@ -91,6 +91,8 @@ header a {
   font-size: 32px;
   color: white;
   text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 header a:hover {

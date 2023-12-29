@@ -1,0 +1,119 @@
+[
+    {
+      "fornecedor": "Provare Distribuidora",
+      "num": 1299,
+      "loja": "Matriz",
+      "valor": "R$1.160,70",
+      "data": "08/12/2023",
+      "estado": "...",
+      "link": "https://drive.google.com/file/d/1z9zGZXceDnNaFI28XLGBoIfcYxZD85B4/view?usp=drive_link"
+    },
+    {
+      "fornecedor": "Atacadão S.A.",
+      "num": 1286,
+      "loja": "Matriz",
+      "valor": "R$2.458,37",
+      "data": "01/12/2023",
+      "estado": "...",
+      "link": "https://drive.google.com/file/d/1xOb8uV6Ym09hel7faYzijZ6RinVKpHjv/view?usp=sharing"
+    },
+    {
+      "fornecedor": "Fecularia Lopes LTDA",
+      "num": 1303,
+      "loja": "CD",
+      "valor": "R$234,33",
+      "data": "11/12/2023",
+      "estado": "...",
+      "link": "https://drive.google.com/file/d/1v9cqHKmkZcnehFFvtbgPqggmJBtOeeJa/view?usp=sharing"
+    },
+    {
+      "fornecedor": "Sem fornecedor (Café Melita)",
+      "num": 1304,
+      "loja": "Matriz",
+      "valor": "R$384,52",
+      "data": "12/12/2023",
+      "estado": "...",
+      "link": "https://drive.google.com/file/d/1Yf1JPH0ttGE_S9snmwKivEjWHieShv1u/view?usp=sharing"
+    },
+    {
+      "fornecedor": "Mix Alimentos LTDA",
+      "num": 1298,
+      "loja": "Matriz",
+      "valor": "R$202,80",
+      "data": "08/12/2023",
+      "estado": "...",
+      "link": "https://drive.google.com/file/d/1eJc4kOQELCpijJQ6OBp9r25-Td33IE2v/view?usp=sharing"
+    },
+    {
+      "fornecedor": "BioAtacado",
+      "num": 1283,
+      "loja": "Matriz",
+      "valor": "R$635,78",
+      "data": "01/12/2023",
+      "estado": "...",
+      "link": "https://drive.google.com/file/d/14HrMfz6HIDg23mi4Etzx2smOqoZu36oK/view?usp=sharing"
+    },
+    {
+      "fornecedor": "Destaque do Norte",
+      "num": 1340,
+      "loja": "Matriz",
+      "valor": "R$503,05",
+      "data": "18/12/2023",
+      "estado": "...",
+      "link": "https://drive.google.com/file/d/1qw0y85oL_Km_2589m-rC3keIy-I2nk9I/view?usp=sharing"
+    },
+    {
+      "fornecedor": "Predilecta",
+      "num": 1302,
+      "loja": "Matriz",
+      "valor": "R$266,23",
+      "data": "08/12/2023",
+      "estado": "...",
+      "link": "https://drive.google.com/file/d/1iokUBNC5RvmjG-U98PcS-YU7pBsMYsDv/view?usp=sharing"
+    },
+    {
+      "fornecedor": "Rapadura Boa Vista",
+      "num": 1301,
+      "loja": "Matriz",
+      "valor": "R$55,35",
+      "data": "08/12/2023",
+      "estado": "...",
+      "link": "https://drive.google.com/file/d/1OfydTCL-8paI-9htTsG1Lury9m3w264U/view?usp=sharing"
+    },
+    {
+      "fornecedor": "Do Melhor Alimentos (Rapadura)",
+      "num": 1300,
+      "loja": "Matriz",
+      "valor": "R$87,30",
+      "data": "08/12/2023",
+      "estado": "...",
+      "link": "https://drive.google.com/file/d/1m9IBDYGPq1OSFO1Z7qP0h2XZtJv6Bpex/view?usp=sharing"
+    },
+    {
+      "fornecedor": "Rosa de Ouro",
+      "num": 1342,
+      "loja": "CD",
+      "valor": "R$476,08",
+      "data": "19/12/2023",
+      "estado": "...",
+      "link": "https://drive.google.com/file/d/1QNHV46T-7URdGW9ahmAMQ-QNUyQAGc2I/view?usp=sharing"
+    },
+    {
+      "fornecedor": "Fokus",
+      "num": 1344,
+      "loja": "Matriz",
+      "valor": "R$609,81",
+      "data": "23/12/2023",
+      "estado": "...",
+      "link": "https://drive.google.com/file/d/1wxefZ91Njk8nQ4HvEHuUcAKqGaOoQlVJ/view?usp=sharing"
+    },
+    {
+      "fornecedor": "Fokus",
+      "num": 1345,
+      "loja": "CD",
+      "valor": "R$427,51",
+      "data": "23/12/2023",
+      "estado": "...",
+      "link": "https://drive.google.com/file/d/1tSUL-i6gemTeXTaVRlrEYjQugb0GQWLT/view?usp=sharing"
+    }
+]

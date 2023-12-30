@@ -2,8 +2,28 @@
     "dezembro": [
         {
             "setor": "Açougue",
-            "valor": "R$567,56",
-            "link": "#"
+            "valor": "R$164,25",
+            "link": "https://drive.google.com/file/d/1g79gKasqGr5EwSUdj6l3sxkfWdKQ6USY/view?usp=sharing"
+        },
+        {
+            "setor": "Café da Manhã",
+            "valor": "R$32,10",
+            "link": "https://drive.google.com/file/d/1DP7t60Pisyy6mYt_y_n5KtR0ZU7B7l_x/view?usp=sharing"
+        },
+        {
+            "setor": "Escritorio, Frente de caixa, Reposicão e Depósito",
+            "valor": "R$32,10",
+            "link": "https://drive.google.com/file/d/1oAT82NKhKagJ2c4_7CsLk6YVMF7r-bE5/view?usp=sharing"
+        },
+        {
+            "setor": "Frios",
+            "valor": "R$38,16",
+            "link": "https://drive.google.com/file/d/1p1A7kmDp8v49-MhR5MKqCEsrnk1Q2SHo/view?usp=sharing"
+        },
+        {
+            "setor": "Limpeza da Loja",
+            "valor": "R$184,05",
+            "link": "https://drive.google.com/file/d/1JMHJcLEG2gsOC1bFuwoLuDzwljasm52h/view?usp=sharing"
         }
     ]
 }

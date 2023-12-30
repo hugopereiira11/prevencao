@@ -8,7 +8,7 @@ fetch('dados.json')
                 <tr>
                     <td>${dado.setor}</td>
                     <td>${dado.valor}</td>
-                    <td>${dado.link}</td>
+                    <td><div class="view-pdf"><a href="${dado.link}">Visualizar</a></div></td>
                 </tr>
             `
         })

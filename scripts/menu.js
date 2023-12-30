@@ -7,7 +7,7 @@ body.innerHTML += `
   <a href="#">Avarias</a>
   <a href="/nav/consumo/consumo.html">Consumo</a>
   <a href="/nav/orcamentos/orcamentos.html">Orçamentos</a>
-  <a href="#">Perdas</a>
+  <a href="/nav/perdas/perdas.html">Perdas</a>
   <a href="#">Sobre</a>
 </nav>
 </div>

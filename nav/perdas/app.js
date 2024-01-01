@@ -12,4 +12,23 @@ fetch('dados.json')
                 </tr>
             `
         })
+
+        const total = dados.dezembro.reduce((sum, dado) => {
+          return sum + dado.valor  
+        }, 0)
+
+        const valorTotal = total.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+      
+        
+        info.innerHTML += `
+
+          <tr>
+            <td>Total</td>
+            <td style="height: 45.9275px">${valorTotal}</td>
+            <td></td>
+          </tr>
+        `
+
+
+    
     })

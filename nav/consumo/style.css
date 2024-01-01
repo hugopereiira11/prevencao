@@ -22,9 +22,18 @@ table {
     
 }
 
-td, th {
-    border-bottom: 1px solid black;
+th {
+    padding-bottom: 10px;
+}
+
+td {
+    border-top: 1px solid black;
     padding: 5px;
+}
+
+tbody tr:nth-last-child(-n + 1) {
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 .mes:hover > table {

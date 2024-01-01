@@ -7,7 +7,7 @@ fetch('dados.json')
             info.innerHTML += `
                 <tr>
                     <td>${dado.setor}</td>
-                    <td>${dado.valor}</td>
+                    <td>${dado.valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</td>
                     <td><div class="view-pdf"><a href="${dado.link}">Visualizar</a></div></td>
                 </tr>
             `

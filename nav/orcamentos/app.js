@@ -19,7 +19,7 @@ fetch("dados.json")
                     <div class="fornecedor">${orc.fornecedor}</div>
                     <div class="numero">${orc.num}</div>
                     <div class="loja">${orc.loja}</div>
-                    <div class="valor">${orc.valor}</div>
+                    <div class="valor">${orc.valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</div>
                     <div class="data">${orc.data}</div>
                     <div class="estado">${orc.estado}</div>
                 </div>

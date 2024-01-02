@@ -5,7 +5,11 @@ fetch("dados.json")
   .then((dados) => {
     console.log(dados)
 
-    let data = dados.dezembro.sort((a, b) => {
+    let mes = dados.filter((item) => {
+      return item.mes == 'dezembro'
+    })
+
+    let data = mes.sort((a, b) => {
       if (a.fornecedor < b.fornecedor) {
         return -1;
       }

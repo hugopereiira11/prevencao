@@ -1,9 +1,10 @@
 #dez2023 {
   display: none;
+  margin: 0 auto;
 }
 
 .content {
-    width: 100%;
+  max-width: 100%;
 }
 
 .mes:hover #dez2023 {

@@ -1,9 +1,10 @@
-[
+{
+  "dezembro": [
     {
       "fornecedor": "Provare Distribuidora",
       "num": 1299,
       "loja": "Matriz",
-      "valor": 1160.70,
+      "valor": 1160.7,
       "data": "08/12/2023",
       "estado": "...",
       "link": "https://drive.google.com/file/d/1z9zGZXceDnNaFI28XLGBoIfcYxZD85B4/view?usp=drive_link"
@@ -39,7 +40,7 @@
       "fornecedor": "Mix Alimentos LTDA",
       "num": 1298,
       "loja": "Matriz",
-      "valor": 202.80,
+      "valor": 202.8,
       "data": "08/12/2023",
       "estado": "...",
       "link": "https://drive.google.com/file/d/1eJc4kOQELCpijJQ6OBp9r25-Td33IE2v/view?usp=sharing"
@@ -84,7 +85,7 @@
       "fornecedor": "Do Melhor Alimentos (Rapadura)",
       "num": 1300,
       "loja": "Matriz",
-      "valor": 87.30,
+      "valor": 87.3,
       "data": "08/12/2023",
       "estado": "...",
       "link": "https://drive.google.com/file/d/1m9IBDYGPq1OSFO1Z7qP0h2XZtJv6Bpex/view?usp=sharing"
@@ -116,4 +117,5 @@
       "estado": "...",
       "link": "https://drive.google.com/file/d/1tSUL-i6gemTeXTaVRlrEYjQugb0GQWLT/view?usp=sharing"
     }
-]
+  ]
+}

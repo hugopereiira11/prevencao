@@ -6,8 +6,10 @@ body.innerHTML += `
   <a href="#">Área de Trocas</a>
   <a href="#">Avarias</a>
   <a href="/nav/consumo/consumo.html">Consumo</a>
+  <a href="/nav/nfe/nfe.html">Notas de Devolução</a>
   <a href="/nav/orcamentos/orcamentos.html">Orçamentos</a>
-  <a href="/nav/perdas/perdas.html">Perdas</a>
+  <a href="/nav/perdas/perdas.html">Perdas de Loja</a>
+  <a href="#">Planilhas</a>
   <a href="#">Sobre</a>
 </nav>
 </div>

@@ -1,0 +1,11 @@
+#dez2023 {
+  display: none;
+}
+
+.content {
+    width: 100%;
+}
+
+.mes:hover #dez2023 {
+    display: block;
+}

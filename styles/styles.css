@@ -1,90 +1,98 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
 
 body {
-    position: relative;
+  position: relative;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    padding: 25px 90%;
-    font-size: 1.5em;
-    width: max-content;
+  color: white;
+  text-decoration: none;
+  padding: 25px 90%;
+  font-size: 1.5em;
+  width: max-content;
 }
 
 nav a:hover {
-    border-radius: 15px;
-    background-color: white;
-    color: blue;
+  border-radius: 15px;
+  background-color: white;
+  color: blue;
 }
 
 #float-menu {
-    display: none;
-    background-color: #0F157F;
-    position: fixed;
-    height: 100vh;
-    width: 100%;
-    top: 0;
+  display: none;
+  background-color: #0f157f;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
 }
 
 #menu-button {
-    position: fixed;
-    right: 15px;
-    bottom: 25px;
+  position: fixed;
+  right: 15px;
+  bottom: 25px;
 }
 
 .material-icons {
-    color: white;
-    background-color: blue;
-    border-radius: 40%;
-    padding: 5px;
-    cursor: pointer;
-    user-select: none;
+  color: white;
+  background-color: blue;
+  border-radius: 40%;
+  padding: 5px;
+  cursor: pointer;
+  user-select: none;
 }
 
 .material-icons:hover {
-    color: #0F157F;
-    border: 1px solid #0F157F;
-    background-color: white;
+  color: #0f157f;
+  border: 1px solid #0f157f;
+  background-color: white;
 }
 
 input[type="checkbox"] {
-    display: none;
+  display: none;
 }
 
 #btn-close {
-    display: none;
+  display: none;
 }
 
 header {
-    background-color: #0F157F;
-    color: white;
-    height: 110px;
-    display: grid;
-    place-items: center;
+  background-color: #0f157f;
+  color: white;
+  height: 110px;
+  display: grid;
+  place-items: center;
 }
 
 header h1 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 header a {
@@ -100,69 +108,86 @@ header a:hover {
 }
 
 main {
-    max-width: 900px;
-    min-height: calc(100vh - 110px);
-    margin: 0 auto;
-    padding: 15px;
+  max-width: 900px;
+  min-height: calc(100vh - 110px);
+  margin: 0 auto;
+  padding: 15px;
 }
 
-article {
-    margin-bottom: 20px;
+section {
+  margin-bottom: 20px;
 }
 
 .content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px;
-    background-color: whitesmoke;
-    padding: 10px;
-    border-radius: 10px;
-  }
-  
-  .view-pdf {
-    background-color: #0000cc;
-    width: 90px;
-    height: 30px;
-    padding: 8px;
-    text-align: center;
-    cursor: pointer;
-    margin-bottom: 5px;
-  }
-  
-  .view-pdf a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .info > .fornecedor,
-  .data,
-  .valor,
-  .numero,
-  .loja {
-    padding: 3px 0;
-  }
-  
-  .fornecedor::before {
-    content: "Fornecedor: ";
-  }
-  
-  .valor::before {
-    content: "Valor: ";
-  }
-  
-  .data::before {
-    content: "Data: ";
-  }
-  
-  .numero::before {
-    content: "Número: ";
-  }
-  
-  .loja::before {
-    content: "Loja: ";
-  }
-  
-  .estado::before {
-    content: "Estado: ";
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.397);
+}
+
+.view-pdf {
+  background-color: #0000cc;
+  width: 90px;
+  height: 30px;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.view-pdf a {
+  color: white;
+  text-decoration: none;
+}
+
+.mes {
+  background-color: rgb(219, 218, 218);
+  display: grid;
+  place-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+h3 {
+  text-align: center;
+  padding: 10px;
+  user-select: none;
+}
+
+.info > .fornecedor,
+.data,
+.valor,
+.numero,
+.loja {
+  padding: 3px 0;
+}
+
+.fornecedor::before {
+  content: "Fornecedor: ";
+}
+
+.valor::before {
+  content: "Valor: ";
+}
+
+.data::before {
+  content: "Data: ";
+}
+
+.numero::before {
+  content: "Número: ";
+}
+
+.loja::before {
+  content: "Loja: ";
+}
+
+.estado::before {
+  content: "Estado: ";
+}

@@ -1,19 +1,18 @@
-const main = document.querySelector("main");
-const orcamentos = document.querySelector("#orcamentos");
+const dez2023 = document.querySelector("#dez2023");
 
 fetch("dados.json")
   .then((resp) => resp.json())
   .then((dados) => {
     console.log(dados)
 
-    let data = dados.sort((a, b) => {
+    let data = dados.dezembro.sort((a, b) => {
       if (a.fornecedor < b.fornecedor) {
         return -1;
       }
     });
 
     data.map((orc) => {
-      main.innerHTML += `
+      dez2023.innerHTML += `
             <div class="content">
                 <div class="info">
                     <div class="fornecedor">${orc.fornecedor}</div>

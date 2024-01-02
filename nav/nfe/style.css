@@ -1,0 +1,12 @@
+.content {
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+#jan2024 {
+    display: none;
+}
+
+.mes:hover #jan2024 {
+    display: block;
+}

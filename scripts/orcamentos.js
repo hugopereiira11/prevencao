@@ -1,4 +1,4 @@
-const dadosamentos = document.querySelector("#orcamentos");
+const orcamentos = document.querySelector("#orcamentos");
 
 fetch("nav/orcamentos/dados.json")
   .then((resp) => resp.json())

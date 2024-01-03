@@ -16,6 +16,8 @@
         body {
             height: 100vh;
             display: grid;
+            background-color: blue;
+            color: white;
         }
         
         form {
@@ -27,10 +29,28 @@
 
         input {
             display: block;
-            margin-top: 25px;
+            margin-top: 45px;
             outline: none;
             height: 35px;
             width: 300px;
+            border: none;
+        }
+
+        input[type="text"], input[type="password"] {
+            border-bottom: 2px solid white;
+            background-color: transparent;
+            color: white;
+        }
+
+        placeholder{
+            color: white;
+        }
+
+        input[type="submit"] {
+          border: 1px solid white;
+          background-color: blue;
+          color: white;
+          padding: 10px;
         }
     </style>
   </head>

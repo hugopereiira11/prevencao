@@ -118,6 +118,20 @@ section {
   margin-bottom: 20px;
 }
 
+#title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 20px;
+}
+
+#title a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0f157f;
+  padding: 5px;
+}
+
 .content {
   display: flex;
   align-items: center;

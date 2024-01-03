@@ -161,7 +161,7 @@ section {
 .mes {
   background-color: rgb(219, 218, 218);
   display: grid;
-  margin: 10px;
+  margin: 10px auto;
   padding: 10px;
   border-radius: 10px;
   width: 100%;

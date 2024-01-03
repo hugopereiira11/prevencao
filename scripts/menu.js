@@ -3,14 +3,14 @@ const body = document.body
 body.innerHTML += `
 <div id="float-menu" style="display: none;">
 <nav>
-  <a href="#">Área de Trocas</a>
-  <a href="#">Avarias</a>
+  <a href="#" style="text-decoration: line-through;">Área de Trocas</a>
+  <a href="#" style="text-decoration: line-through;">Avarias</a>
   <a href="/nav/consumo/consumo.html">Consumo</a>
   <a href="/nav/nfe/nfe.html">Notas de Devolução</a>
   <a href="/nav/orcamentos/orcamentos.html">Orçamentos</a>
   <a href="/nav/perdas/perdas.html">Perdas de Loja</a>
-  <a href="#">Planilhas</a>
-  <a href="#">Sobre</a>
+  <a href="#" style="text-decoration: line-through;">Planilhas</a>
+  <a href="#" style="text-decoration: line-through;">Sobre</a>
 </nav>
 </div>
 

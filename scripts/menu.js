@@ -5,6 +5,7 @@ body.innerHTML += `
 <nav>
   <a href="#" style="text-decoration: line-through;">Área de Trocas</a>
   <a href="#" style="text-decoration: line-through;">Avarias</a>
+  <a href="/nav/balanco/balanco.html">Balanço</a>
   <a href="/nav/consumo/consumo.html">Consumo</a>
   <a href="/nav/nfe/nfe.html">Notas de Devolução</a>
   <a href="/nav/orcamentos/orcamentos.html">Orçamentos</a>

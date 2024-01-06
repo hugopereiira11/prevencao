@@ -3,15 +3,15 @@ const body = document.body
 body.innerHTML += `
 <div id="float-menu" style="display: none;">
 <nav>
-  <a href="/nav/trocas/trocas.html">Área de Trocas</a>
-  <a href="/nav/avarias/avarias.html">Avarias</a>
-  <a href="/nav/balanco/balanco.html">Balanço</a>
-  <a href="/nav/consumo/consumo.html">Consumo</a>
-  <a href="/nav/nfe/nfe.html">Notas de Devolução</a>
-  <a href="/nav/orcamentos/orcamentos.html">Orçamentos</a>
-  <a href="/nav/perdas/perdas.html">Perdas de Loja</a>
-  <a href="/nav/planilhas/planilhas.html">Planilhas</a>
-  <a href="/nav/sobre/sobre.html">Sobre</a>
+  <a href="../trocas/trocas.html">Área de Trocas</a>
+  <a href="../avarias/avarias.html">Avarias</a>
+  <a href="../balanco/balanco.html">Balanço</a>
+  <a href="../consumo/consumo.html">Consumo</a>
+  <a href="../nfe/nfe.html">Notas de Devolução</a>
+  <a href="../orcamentos/orcamentos.html">Orçamentos</a>
+  <a href="../perdas/perdas.html">Perdas de Loja</a>
+  <a href="../planilhas/planilhas.html">Planilhas</a>
+  <a href="../sobre/sobre.html">Sobre</a>
 </nav>
 </div>
 

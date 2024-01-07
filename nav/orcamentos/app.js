@@ -1,6 +1,6 @@
 const dez2023 = document.querySelector("#dez2023");
 
-fetch("dados.json")
+fetch("https://raw.githubusercontent.com/hugopereiira11/prevencao/main/nav/orcamentos/dados.json")
   .then((resp) => resp.json())
   .then((dados) => {
     console.log(dados)

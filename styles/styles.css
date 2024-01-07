@@ -222,7 +222,7 @@ h3 {
 
 
 @media all and (min-width: 500px) {
-  main {
+  #home {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5px;

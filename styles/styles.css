@@ -221,7 +221,7 @@ h3 {
 }
 
 
-@media all and (min-width: 500px) {
+@media all and (min-width: 790px) {
   #home {
     display: grid;
     grid-template-columns: 1fr 1fr;

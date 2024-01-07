@@ -1,12 +1,14 @@
-.content {
-    max-width: 80%;
-    margin: 20px auto;
-}
-
-#jan2024 {
+#dados {
     display: none;
 }
 
-.mes:hover #jan2024 {
+.mes:hover #dados {
     display: block;
+}
+
+@media (min-width: 600px) {
+  #dados > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }

@@ -1,12 +1,14 @@
-#dez2023 {
+#dados {
   display: none;
 }
 
-.content {
-  max-width: 80%;
-  margin: 20px auto;
+.mes:hover > #dados {
+    display: block;
 }
 
-.mes:hover #dez2023 {
-    display: block;
+@media (min-width: 600px) {
+  #dados > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }

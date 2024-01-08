@@ -220,7 +220,6 @@ h3 {
   content: "Tipo de Pagamento: ";
 }
 
-
 @media all and (min-width: 790px) {
   #home {
     display: grid;
@@ -230,5 +229,16 @@ h3 {
 
   #nfe .content {
     height: 158px;
+  }
+}
+
+@media (max-width: 500px) {
+  #float-menu {
+    background-color: blue;
+    max-height: 100vh;
+  }
+
+  nav {
+    max-height: 75vh;
   }
 }

@@ -25,8 +25,16 @@ th {
     display: block;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .content {
         flex-direction: column;
     }
+
+    .table {
+        display: none;
+    }
+
+    .forn:hover .table {
+    display: block;
+  }
 }

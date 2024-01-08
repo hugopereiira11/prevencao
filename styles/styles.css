@@ -234,4 +234,12 @@ h3 {
   nav a {
     padding: 20px;
   }
+
+  .forn {
+    background-color: rgb(219, 218, 218);
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+  }
 }

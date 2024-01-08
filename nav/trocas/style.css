@@ -1,0 +1,32 @@
+table {
+    text-align: center;
+    border-collapse: collapse;
+    align-items: center;
+}
+
+td {
+    padding: 5px;
+    border-top: 1px solid black;
+}
+
+.view-pdf {
+    margin: 0 auto
+}
+
+th {
+    padding: 5px;
+}
+
+.forn {
+    display: none;
+}
+
+.mes:hover .forn {
+    display: block;
+}
+
+@media (max-width: 500px) {
+    .content {
+        flex-direction: column;
+    }
+}

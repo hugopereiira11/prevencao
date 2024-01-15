@@ -12,9 +12,11 @@ fetch('./dados.json')
     jan2024.innerHTML += `
     <tr>
         <td>${item.setor}</td>
-        <td><div class="view-pdf"><a href="${item.link}">Visualizar</a></div></td>
+        <td><div class="view-pdf" ${!item.entrada ? 'style="text-decoration: line-through;"': ''}><a href="${!item.entrada ? '#' : item.entrada}" ${!item.entrada ? 'style="text-decoration: line-through;"': ''}>Visualizar</a></div></td>
+        <td><div class="view-pdf" ${!item.saida ? 'style="text-decoration: line-through;"': ''} ><a href="${!item.saida ? '#' : item.saida}" ${!item.saida ? 'style="text-decoration: line-through;"': ''}>Visualizar</a></div></td>
     </tr>
 `
     })
     
 })
+

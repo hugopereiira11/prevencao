@@ -18,9 +18,10 @@ td {
     padding: 5px;
 }
 
-td:last-child {
-    display: grid;
-    place-items: center;
+td:nth-child(n + 2) {
+    margin: 0 auto;
+    width: 100px;
+    height: 46px;
 }
 
 .mes:hover > table {

@@ -4,7 +4,13 @@ fetch('./dados.json').then(resp => resp.json())
 .then(dados => {
     let filtrojan = dados.filter(dado => dado.mes === 'janeiro')
 
-    filtrojan.map(dado => {
+    let filtroJanSort = filtrojan.sort((a, b) => {
+        if (a.fornecedor < b.fornecedor) {
+            return -1;
+        }
+    })
+
+    filtroJanSort.map(dado => {
         janeiro.innerHTML += `
             <div class="content">
                 <div class="info">

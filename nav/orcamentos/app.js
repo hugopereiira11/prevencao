@@ -1,32 +1,53 @@
-const dez2023 = document.querySelector("#dez2023");
+const main = document.querySelector("main");
 
-fetch("https://raw.githubusercontent.com/hugopereiira11/prevencao/main/nav/orcamentos/dados.json")
-  .then((resp) => resp.json())
+fetch("dados.json").then((resp) => resp.json())
   .then((dados) => {
-    console.log(dados)
 
-    let mes = dados.filter((item) => {
-      return item.mes == 'dezembro'
-    })
 
-    let data = mes.sort((a, b) => {
+    /// Ordem Alfabética
+    dados = dados.sort((a, b) => {
       if (a.fornecedor < b.fornecedor) {
         return -1;
       }
-    });
+    })
 
-    data.map((orc) => {
-      dez2023.innerHTML += `
-            <div class="content">
-                <div class="info">
-                    <div class="fornecedor">${orc.fornecedor}</div>
-                    <div class="numero">${orc.num}</div>
-                    <div class="loja">${orc.loja}</div>
-                    <div class="valor">${orc.valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</div>
-                    <div class="data">${orc.data}</div>
-                    <div class="estado">${orc.estado}</div>
-                </div>
-                <div class="view-pdf"><a href="${orc.link}">Visualizar</a></div>
-            </div>`;
-    });
+    /// Renderização dos Orçamentos
+    
+    let meses = dados.map(dado => dado.mes)
+
+    let unique = [...new Set(meses)]
+
+    unique.map(mes => {
+
+      let filtro = dados.filter(dado => dado.mes == mes)
+
+      main.innerHTML = `
+        <h2>Lista de Orçamentos</h2>
+        <hr />    
+      `
+
+      main.innerHTML += `
+        <div class="mes">
+          <h3>${mes}</h3>
+          <div id="${mes}" class="dados"></div>
+        </div>
+      `
+
+      filtro.map(dado => {
+        document.getElementById(mes).innerHTML += `
+        <div class="content">
+          <div class="info">
+              <div class="fornecedor">${dado.fornecedor}</div>
+              <div class="numero">${dado.num}</div>
+              <div class="loja">${dado.loja}</div>
+              <div class="valor">${dado.valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</div>
+              <div class="data">${dado.data}</div>
+              <div class="estado">${dado.estado}</div>
+          </div>
+          <div class="view-pdf"><a href="${dado.link}">Visualizar</a></div>
+      </div>
+        `
+      })
+    })
+            
   });

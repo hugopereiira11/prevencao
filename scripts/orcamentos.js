@@ -6,8 +6,6 @@ fetch("nav/orcamentos/dados.json")
 
     let  data = dados.length
 
-    console.log(dados);
-
     orcamentos.innerHTML += `
         <div class="content">
             <div class="info">

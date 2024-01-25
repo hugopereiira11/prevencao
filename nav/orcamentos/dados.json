@@ -128,5 +128,75 @@
     "mes": "Dezembro 2023",
     "estado": "...",
     "link": "https://drive.google.com/file/d/1tSUL-i6gemTeXTaVRlrEYjQugb0GQWLT/view?usp=sharing"
+  },
+  {
+    "fornecedor": "Kodilar",
+    "num": 1375,
+    "loja": "Matriz",
+    "valor": 107.74,
+    "data": "25/01/2024",
+    "mes": "Janeiro 2024",
+    "estado": "...",
+    "link": "https://drive.google.com/file/d/15pXCiESCibQYui0__M3ZcwqDd0UYtYmY/view?usp=sharing"
+  },
+  {
+    "fornecedor": "Jalapão",
+    "num": 1374,
+    "loja": "CD",
+    "valor": 37.75,
+    "data": "24/01/2024",
+    "mes": "Janeiro 2024",
+    "estado": "...",
+    "link": "https://drive.google.com/file/d/1ZwQfDz6vYiFHSXUreIw4SzQgcoSzs3Da/view?usp=sharing"
+  },
+  {
+    "fornecedor": "L'Mark",
+    "num": 1373,
+    "loja": "Matriz",
+    "valor": 289.15,
+    "data": "24/01/2024",
+    "mes": "Janeiro 2024",
+    "estado": "...",
+    "link": "https://drive.google.com/file/d/1Wv5dc5Fc53kRUKMKtWyiBFpbif3RzkdB/view?usp=sharing"
+  },
+  {
+    "fornecedor": "Fokus",
+    "num": 1371,
+    "loja": "CD",
+    "valor": 856.17,
+    "data": "23/01/2024",
+    "mes": "Janeiro 2024",
+    "estado": "...",
+    "link": "https://drive.google.com/file/d/1CxZhziR_aNfBXfatnFkEyfBHy8cIqjuF/view?usp=sharing"
+  },
+  {
+    "fornecedor": "Fokus",
+    "num": 1372,
+    "loja": "Matriz",
+    "valor": 469.04,
+    "data": "23/01/2024",
+    "mes": "Janeiro 2024",
+    "estado": "...",
+    "link": "https://drive.google.com/file/d/1b8qjl1yo3LKWHTeFlmoqzBnOOJ35YWTc/view?usp=sharing"
+  },
+  {
+    "fornecedor": "Rosa de Ouro",
+    "num": 1366,
+    "loja": "CD",
+    "valor": 478.01,
+    "data": "22/01/2024",
+    "mes": "Janeiro 2024",
+    "estado": "...",
+    "link": "https://drive.google.com/file/d/1Twvtg4M3jxZ5TF437YZHf3mft70FlTu3/view?usp=sharing"
+  },
+  {
+    "fornecedor": "Cepera",
+    "num": 1361,
+    "loja": "Matriz",
+    "valor": 920.35,
+    "data": "20/01/2024",
+    "mes": "Janeiro 2024",
+    "estado": "...",
+    "link": "https://drive.google.com/file/d/1dJ87ZWA-4YIwQ6V8V4JrdosFX7EUNjRu/view?usp=sharing"
   }
 ]

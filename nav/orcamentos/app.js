@@ -3,20 +3,14 @@ const main = document.querySelector("main");
 fetch("dados.json").then((resp) => resp.json())
   .then((dados) => {
 
-
-    /// Ordem Alfabética
-    let data = dados.sort((a, b) => {
-      if (a.fornecedor < b.fornecedor) {
-        return -1;
-      }
-    })
-
     /// Renderização dos Orçamentos
     
     let meses = dados.map(dado => dado.mes)
 
 
     let unique = [...new Set(meses)]
+
+    console.log(unique)
 
     
 
@@ -31,7 +25,13 @@ fetch("dados.json").then((resp) => resp.json())
 
       unique.map(mes => {
 
-        let filtro = data.filter(dado => dado.mes == mes)
+        let filtro = dados.filter(dado => dado.mes == mes)
+
+        let filtroSort= filtro.sort((a, b) => {
+          if (a.fornecedor < b.fornecedor) {
+            return -1;
+          }
+        }) 
 
 
         main.innerHTML += `
@@ -41,7 +41,7 @@ fetch("dados.json").then((resp) => resp.json())
           </div>
         `
 
-        filtro.map(dado => {
+        filtroSort.map(dado => {
           document.getElementById(mes).innerHTML += `
           <div class="content">
             <div class="info">
@@ -66,14 +66,20 @@ fetch("dados.json").then((resp) => resp.json())
     let searchInput = document.querySelector('#search-input')
 
     searchInput.oninput = function() {
-      let filtro = data.filter(dado => dado.fornecedor.toLowerCase().includes(searchInput.value.toLowerCase()))
+      let filtro = dados.filter(dado => dado.fornecedor.toLowerCase().includes(searchInput.value.toLowerCase()))
+
+      let filtroSort= filtro.sort((a, b) => {
+          if (a.fornecedor < b.fornecedor) {
+            return -1;
+          }
+        })
 
       main.innerHTML = `
           <h2>Lista de Orçamentos</h2>
           <hr />    
       `
 
-      filtro.map(dado => {
+      filtroSort.map(dado => {
         main.innerHTML += `
         <div class="content">
           <div class="info">

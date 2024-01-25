@@ -277,8 +277,8 @@ input:focus {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 790px) {
   .nav {
-    width: 250px;
+    max-width: 350px;
   }
 }

@@ -1,24 +1,26 @@
-{
-    "dezembro": [
-        {
-            "setor":"Consumido por Cliente",
-            "valor": 25.62,
-            "link": "https://drive.google.com/file/d/1J5odzZOEDMQ7UYy6bi6bUXcs0dPWlMPT/view?usp=sharing"
-        },
-        {
-            "setor":"Frios",
-            "valor": 365.87,
-            "link": "https://drive.google.com/file/d/14vqDGqyEJcG7zWYL5mnnGq4BuLOwosf4/view?usp=sharing"
-        },
-        {
-            "setor":"Hortifruti",
-            "valor": 5934.90,
-            "link": "https://drive.google.com/file/d/11vr5ZyYFw3kl8p2Ds-oA2FIeB1QxAw28/view?usp=sharing"
-        },
-        {
-            "setor":"Padaria",
-            "valor": 1730.56,
-            "link": "https://drive.google.com/file/d/1ks6SX8MOnnBdblM9fbmCsbpHq0oi9ujG/view?usp=sharing"
-        }
-    ]
-}
+[
+  {
+    "setor": "Consumido por Cliente",
+    "valor": 25.62,
+    "mes": "Metade de Dezembro de 2023",
+    "link": "https://drive.google.com/file/d/1J5odzZOEDMQ7UYy6bi6bUXcs0dPWlMPT/view?usp=sharing"
+  },
+  {
+    "setor": "Frios",
+    "valor": 365.87,
+    "mes": "Metade de Dezembro de 2023",
+    "link": "https://drive.google.com/file/d/14vqDGqyEJcG7zWYL5mnnGq4BuLOwosf4/view?usp=sharing"
+  },
+  {
+    "setor": "Hortifruti",
+    "valor": 5934.9,
+    "mes": "Metade de Dezembro de 2023",
+    "link": "https://drive.google.com/file/d/11vr5ZyYFw3kl8p2Ds-oA2FIeB1QxAw28/view?usp=sharing"
+  },
+  {
+    "setor": "Padaria",
+    "valor": 1730.56,
+    "mes": "Metade de Dezembro de 2023",
+    "link": "https://drive.google.com/file/d/1ks6SX8MOnnBdblM9fbmCsbpHq0oi9ujG/view?usp=sharing"
+  }
+]

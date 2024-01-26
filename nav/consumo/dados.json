@@ -1,39 +1,44 @@
-{
-    "dezembro": [
-        {
-            "setor": "Açougue",
-            "valor": 164.25,
-            "link": "https://drive.google.com/file/d/1g79gKasqGr5EwSUdj6l3sxkfWdKQ6USY/view?usp=sharing"
-        },
-        {
-            "setor": "Café da Manhã",
-            "valor": 32.10,
-            "link": "https://drive.google.com/file/d/1DP7t60Pisyy6mYt_y_n5KtR0ZU7B7l_x/view?usp=sharing"
-        },
-        {
-            "setor": "Escritorio, Frente de caixa, Reposicão e Depósito",
-            "valor": 115.82,
-            "link": "https://drive.google.com/file/d/1oAT82NKhKagJ2c4_7CsLk6YVMF7r-bE5/view?usp=sharing"
-        },
-        {
-            "setor": "Frios",
-            "valor": 38.16,
-            "link": "https://drive.google.com/file/d/1p1A7kmDp8v49-MhR5MKqCEsrnk1Q2SHo/view?usp=sharing"
-        },
-        {
-            "setor": "Limpeza da Loja",
-            "valor": 184.05,
-            "link": "https://drive.google.com/file/d/1JMHJcLEG2gsOC1bFuwoLuDzwljasm52h/view?usp=sharing"
-        },
-        {
-            "setor": "Padaria",
-            "valor": 133.48,
-            "link": ""
-        },
-        {
-            "setor": "Padaria (Produção)",
-            "valor": 4650.35,
-            "link": "https://drive.google.com/file/d/1UEgTZAZQLjTmHZsJ0sUmlC_jkL54NCQ3/view?usp=sharing"
-        }
-    ]
-}
+[
+    {
+      "setor": "Açougue",
+      "valor": 164.25,
+      "link": "https://drive.google.com/file/d/1g79gKasqGr5EwSUdj6l3sxkfWdKQ6USY/view?usp=sharing",
+      "mes": "Metade de Dezembro de 2023"
+    },
+    {
+      "setor": "Café da Manhã",
+      "valor": 32.1,
+      "link": "https://drive.google.com/file/d/1DP7t60Pisyy6mYt_y_n5KtR0ZU7B7l_x/view?usp=sharing",
+      "mes": "Metade de Dezembro de 2023"
+    },
+    {
+      "setor": "Escritorio, Frente de caixa, Reposicão e Depósito",
+      "valor": 115.82,
+      "link": "https://drive.google.com/file/d/1oAT82NKhKagJ2c4_7CsLk6YVMF7r-bE5/view?usp=sharing",
+      "mes": "Metade de Dezembro de 2023"
+    },
+    {
+      "setor": "Frios",
+      "valor": 38.16,
+      "link": "https://drive.google.com/file/d/1p1A7kmDp8v49-MhR5MKqCEsrnk1Q2SHo/view?usp=sharing",
+      "mes": "Metade de Dezembro de 2023"
+    },
+    {
+      "setor": "Limpeza da Loja",
+      "valor": 184.05,
+      "link": "https://drive.google.com/file/d/1JMHJcLEG2gsOC1bFuwoLuDzwljasm52h/view?usp=sharing",
+      "mes": "Metade de Dezembro de 2023"
+    },
+    {
+      "setor": "Padaria",
+      "valor": 133.48,
+      "link": "",
+      "mes": "Metade de Dezembro de 2023"
+    },
+    {
+      "setor": "Padaria (Produção)",
+      "valor": 4650.35,
+      "link": "https://drive.google.com/file/d/1UEgTZAZQLjTmHZsJ0sUmlC_jkL54NCQ3/view?usp=sharing",
+      "mes": "Metade de Dezembro de 2023"
+    }
+  ]

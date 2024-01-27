@@ -350,3 +350,9 @@ input:focus {
     color: blue;
   }
 }
+
+#header-nav a[href="#"] {
+  border-radius: 15px;
+  background-color: white;
+  color: blue;
+}

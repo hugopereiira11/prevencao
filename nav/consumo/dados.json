@@ -40,5 +40,53 @@
       "valor": 4650.35,
       "link": "https://drive.google.com/file/d/1UEgTZAZQLjTmHZsJ0sUmlC_jkL54NCQ3/view?usp=sharing",
       "mes": "Metade de Dezembro de 2023"
+    },
+    {
+      "setor": "Açougue",
+      "valor": 147.52,
+      "link": "https://drive.google.com/file/d/1kAVM7eaqE97TmpdGgPmlGJ_NQcNUtboe/view?usp=sharing",
+      "mes": "Janeiro 2024"
+    },
+    {
+      "setor": "Café da Manhã",
+      "valor": 174.87,
+      "link": "https://drive.google.com/file/d/1LiO7K8FhfTzyIXMu3mvbWvjh1YT_ZCRU/view?usp=sharing",
+      "mes": "Janeiro 2024"
+    },
+    {
+      "setor": "Escritorio",
+      "valor": 65.31,
+      "link": "https://drive.google.com/file/d/1Gr983aLgIFoT4N50_mowRLINM1uO827t/view?usp=sharing",
+      "mes": "Janeiro 2024"
+    },
+    {
+      "setor": "Frente de Caixa, Reposição e Depósito",
+      "valor": 203.90,
+      "link": "https://drive.google.com/file/d/1Mk3zfwEpWYwFDyXB3HSaA-Dlv-rABpq6/view?usp=sharing",
+      "mes": "Janeiro 2024"
+    },
+    {
+      "setor": "Frios",
+      "valor": 49.61,
+      "link": "https://drive.google.com/file/d/1Av7PoM3yiFhtPSwEQR-BTPGV-MYWBvI6/view?usp=sharing",
+      "mes": "Janeiro 2024"
+    },
+    {
+      "setor": "Limpeza da Loja",
+      "valor": 291.78,
+      "link": "https://drive.google.com/file/d/1T0GnwECZNo3omY3RdfrYZgm_lX5lFdNB/view?usp=sharing",
+      "mes": "Janeiro 2024"
+    },
+    {
+      "setor": "Padaria",
+      "valor": 418.02,
+      "link": "https://drive.google.com/file/d/1caw1x-78qw05wkKYwR3s4uce7dumRs8k/view?usp=sharing",
+      "mes": "Janeiro 2024"
+    },
+    {
+      "setor": "Padaria (Produção)",
+      "valor": 0,
+      "link": "",
+      "mes": "Janeiro 2024"
     }
   ]

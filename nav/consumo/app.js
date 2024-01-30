@@ -48,7 +48,7 @@ fetch('dados.json')
                         <td>${dado.valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</td>
                         <td>
                             <div class="view-pdf">
-                                <a href="${dado.link}">Visualizar</a>
+                                <a href="${dado.link}" ${dado.link == "" ? 'style="text-decoration: line-through;"' : ''}>Visualizar</a>
                             </div>
                         </td>
                     </tr>
